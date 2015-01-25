@@ -1,0 +1,22 @@
+import java.math.*;
+public class Assignment {
+	
+	public static void main(String[] args) {
+		int rad;
+		double area, diam;
+		
+		
+		
+		
+	}
+	
+	double circArea(int rad){
+		
+		return rad * rad * Math.PI;
+	}
+	
+	double circDiam(int rad){
+		
+		return 2 * Math.PI * rad;
+	}
+}

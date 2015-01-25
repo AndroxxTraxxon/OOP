@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class Challenge1 {
+
+	public static void main(String[] args) {
+		String name;
+		int age;
+		double annualPlay;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter your name: ");
+		name = scan.nextLine();
+		System.out.print ("Entes your age: ");
+		age = scan.nextInt();
+		Sye
+		
+		scan.close();
+		
+
+	}
+
+}
