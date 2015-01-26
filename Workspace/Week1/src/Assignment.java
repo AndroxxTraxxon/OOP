@@ -19,7 +19,7 @@ public class Assignment {
 		
 		System.out.println("The circle's radius is " + rad + ", the area is " + dm.format(area));
 		System.out.println("The diameter is "+ dm.format(diam) +".");
-
+		
 		return;
 		
 	}
