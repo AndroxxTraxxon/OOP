@@ -5,7 +5,7 @@ public class Assignment {
 	public static void main(String[] args) {
 		int rad;
 		double area, diam;
-		
+		DecimalFormat dm = new DecimalFormat();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the radius of the circle.");
 		
@@ -14,9 +14,11 @@ public class Assignment {
 		
 		area = circArea(rad);
 		diam = circDiam(rad);
+		dm.setMaximumFractionDigits(4);
 		
-		System.out.println("The circle's radius is " + rad + ", the area is " + area);
-		System.out.println("The diameter is "+ diam +".");
+		
+		System.out.println("The circle's radius is " + rad + ", the area is " + dm.format(area));
+		System.out.println("The diameter is "+ dm.format(diam) +".");
 
 		return;
 		
@@ -31,4 +33,5 @@ public class Assignment {
 		
 		return 2 * rad;
 	}
+	
 }
