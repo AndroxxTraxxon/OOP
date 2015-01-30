@@ -41,3 +41,14 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#=========================
+#Workspace Files
+#=========================
+.metadata
+.lock
+.log
+.mylyn
+.plugins
+.reccommenders
+
