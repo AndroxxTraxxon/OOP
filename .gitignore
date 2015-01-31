@@ -45,9 +45,5 @@ Temporary Items
 #=========================
 #Workspace Files
 #=========================
-.metadata
-.lock
-.log
-.mylyn
-.plugins
-
+Workspace/.metadata/
+Workspace/.recommenders/
