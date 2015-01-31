@@ -45,5 +45,5 @@ Temporary Items
 #=========================
 #Workspace Files
 #=========================
-Workspace/.metadata/
-Workspace/.recommenders/
+Workspace/.metadata/**
+Workspace/.recommenders/**
