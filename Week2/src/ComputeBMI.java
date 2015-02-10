@@ -1,3 +1,5 @@
+//OK. O. Aktunc
+
 import javax.swing.JOptionPane;
 public class ComputeBMI {
 
