@@ -1,3 +1,5 @@
+//OK. O.Aktunc
+
 import java.util.Scanner;
 public class CompareNumbers {
 	public static void main(String[] args) {
