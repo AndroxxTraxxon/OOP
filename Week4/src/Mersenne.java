@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Mersenne {
 
 	public static void main(String[] args) {
@@ -47,5 +46,4 @@ public class Mersenne {
 		return isPowTwo(i/2);
 		
 	}
-
 }

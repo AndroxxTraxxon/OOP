@@ -6,7 +6,7 @@ public class Prime {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a positive integer:");
-		int input = scan.nextInt();
+		long input = scan.nextInt();
 		int count = 0;
 		int line = 0;
 		if (input <2){
@@ -35,9 +35,9 @@ public class Prime {
 		scan.close();
 	}
 	
-	public static boolean isPrime(int i){
+	public static boolean isPrime(long i){
 		if (i < 2) return false;
-		for(int j = 2; j<((i/2)+1); j++){
+		for(long j = 2; j<(int)(Math.sqrt(i)+1); j++){
 			if (i%j==0)return false;
 		}
 		return true;
