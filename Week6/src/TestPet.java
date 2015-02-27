@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class TestPet {
+	
 	public static void main(String[] args) {
 		Pet pet = new Pet();
 		Scanner scan = new Scanner(System.in);
