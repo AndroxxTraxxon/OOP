@@ -1,3 +1,5 @@
+//OK. Good job. O.Aktunc
+
 import java.util.Scanner;
 
 public class Mersenne {
