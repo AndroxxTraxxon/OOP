@@ -12,6 +12,7 @@ public class CoinToss {
 			if(c.getSideUp().equals("Heads")) heads++;
 				else tails++;
 		}
+		
 		System.out.println("Heads Count: " + heads);
 		System.out.println("Tails Count: " + tails);
 	}
