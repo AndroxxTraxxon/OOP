@@ -1,4 +1,4 @@
-
+//OK. O.Aktunc
 public class CoinToss {
 
 	public static void main(String[] args) {
