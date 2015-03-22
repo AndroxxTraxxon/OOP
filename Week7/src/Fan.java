@@ -1,4 +1,6 @@
 
+//OK. O.Aktunc
+
 public class Fan {
 	private int speed;
 	private boolean fanStatus;
