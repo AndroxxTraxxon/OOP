@@ -1,4 +1,4 @@
-
+//OK. O.Aktunc
 public class Coin {
 	String sideUp;
 	
