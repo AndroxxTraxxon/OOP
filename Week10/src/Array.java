@@ -8,7 +8,9 @@ public class Array {
 		int input = scan.nextInt();//take input from scanner
 		int[] myArray = new int[input];//set myArray to length of input
 		
-		for(int i = 0; i < myArray.length; i++){//for each element in myArray
+		for(int i = 0; i < myArray.length; i++)
+		
+		{//for each element in myArray
 			System.out.print("Enter number " + (i+1) + ": ");//prompt for input
 			myArray[i] = scan.nextInt();//set myArray at i to input.
 		}
